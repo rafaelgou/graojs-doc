@@ -1,4 +1,4 @@
-body { padding-top: 130px; }
+body { padding-top: 110px; }
 
 h1 { border-bottom: 1px solid #ccc}
 
@@ -6,7 +6,7 @@ h1 { border-bottom: 1px solid #ccc}
     background-color: #fff;
 }
 .navbar-small {
-    top: 90px;
+    top: 70px;
     font-size: 0.9em;
     min-height: 40px;
     z-index: 1029;
@@ -17,5 +17,9 @@ h1 { border-bottom: 1px solid #ccc}
 }
 
 .navbar-brand {
-    padding: 30px 15px 10px 15px;
+    padding: 15px 15px 10px 15px;
+}
+
+#main, .footer {
+    padding: 0 1%;
 }

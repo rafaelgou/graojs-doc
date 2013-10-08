@@ -49,7 +49,7 @@ copyright = u'2013, graoJS Team'
 # built documents.
 #
 # The short X.Y version.
-version = '0.5.0'
+version = '0.5'
 # The full version, including alpha/beta/rc tags.
 release = '0.5.0'
 
@@ -87,6 +87,8 @@ pygments_style = 'sphinx'
 # A list of ignored prefixes for module index sorting.
 #modindex_common_prefix = []
 
+
+highlight_language = 'javascript'
 
 # -- Options for HTML output ---------------------------------------------------
 
@@ -200,7 +202,10 @@ html_static_path = ['_static']
 #html_use_smartypants = True
 
 # Custom sidebar templates, maps document names to template names.
-#html_sidebars = {}
+html_sidebars = {
+    'reference/*': ['localtoc.html'],
+    'getting-started/*': ['localtoc.html'],
+}
 
 # Additional templates that should be rendered to pages, maps page names to
 # template names.

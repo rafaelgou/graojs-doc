@@ -14,6 +14,7 @@ First, install [Sphinx-Pocoo](http://sphinx-doc.org/) and [Sphinx Bootstrap Them
 apt-get install python-setuptools python-dev build-essential
 easy_install -U Sphinx
 pip install sphinx_bootstrap_theme
+pip install pygments
 ~~~
 
 Now, clone or download the docs source:
